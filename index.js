@@ -1,5 +1,5 @@
 document.getElementById("age-form").addEventListener("submit", (event) => {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault();
 
     const birthDateInput = document.getElementById("birthDate").value;
     const resultElement = document.getElementById("result");
